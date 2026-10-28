@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de São Luís</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Guia de São Luís</h1>
+    <nav>
+      <ul>
+        <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+        <li><a href="#comidas-tipicas">Comidas Típicas</a></li>
+        <li><a href="#cultura">Cultura</a></li>
+      </ul>
+    </nav>
+    <button id="botao-tema">Modo escuro</button>
+  </header>
+
+  <main>
+    <!-- Seção 1: Pontos Turísticos -->
+    <section id="pontos-turisticos">
+      <h2>Pontos Turísticos</h2>
+      <div class="cards-container">
+        
+        <!-- Cartão 1 -->
+        <article class="card">
+          <img src="img/centro-historico.jpeg" alt="Centro Histórico de São Luís com casarões azulejados">
+          <h3>Centro Histórico</h3>
+          <p>Conhecido por seus belos casarões colonial portugueses revestidos de azulejos históricos e ruas de paralelepípedo.</p>
+          <div class="curtir-box">
+            <button class="btn-curtir">Curtir</button>
+            <span><strong class="contador-curtidas">0</strong> curtidas</span>
+          </div>
+        </article>
+
+        <!-- Cartão 2: Palácio dos Leões -->
+<article class="card">
+  <img src="img/palacio-leoes.jpeg" alt="Fachada do Palácio dos Leões, sede do governo do Maranhão">
+  <h3>Palácio dos Leões</h3>
+  <p>Sede do governo estadual, o palácio é uma construção histórica deslumbrante situada de frente para a baía de São Marcos.</p>
+  <div class="curtir-box">
+    <button class="btn-curtir">Curtir</button>
+    <span><strong class="contador-curtidas">0</strong> curtidas</span>
+  </div>
+</article>
+
+        <!-- Cartão 3 -->
+        <article class="card">
+          <img src="img/convento-das-merces.jpeg" alt="Fachada imponente do Convento das Mercês">
+          <h3>Convento das Mercês</h3>
+          <p>Edificação histórica do século XVII que abriga um rico acervo cultural e exposições sobre a história maranhense.</p>
+          <div class="curtir-box">
+            <button class="btn-curtir">Curtir</button>
+            <span><strong class="contador-curtidas">0</strong> curtidas</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Seção 2: Comidas Típicas -->
+    <section id="comidas-tipicas">
+      <h2>Comidas Típicas</h2>
+      <p><h3><strong>Conheça as iguarias que fazem a riqueza da gastronomia ludovicense:</strong></h3></p>
+      <ul class="lista-comidas">
+  <li class="item-comida">
+    <img src="img/arroz-cuxa.jpg" alt="Arroz de Cuxá" class="img-prato">
+    <div class="info-prato">
+      <strong>Arroz de Cuxá:</strong> O prato mais famoso do Maranhão, feito com vinagreira, camarão seco e gergelim.
+    </div>
+  </li>
+
+  <li class="item-comida">
+    <img src="img/torta-camarao.jpg" alt="Torta de Camarão" class="img-prato">
+    <div class="info-prato">
+      <strong>Torta de Camarão:</strong> Preparada com camarão seco temperado e ovos batidos, assada até dourar.
+    </div>
+  </li>
+
+  <li class="item-comida">
+    <img src="img/peixe-frito.jpg" alt="Peixe Frito com Arroz de Cuxá" class="img-prato">
+    <div class="info-prato">
+      <strong>Peixe Frito com Arroz de Cuxá:</strong> Combinação clássica e imperdível da culinária maranhense.
+    </div>
+  </li>
+
+  <li class="item-comida">
+    <img src="img/jucara.jpg" alt="Juçara com Farinha e Açúcar" class="img-prato">
+    <div class="info-prato">
+      <strong>Juçara com Farinha e Açúcar:</strong> O açaí maranhense, tradicionalmente consumido com farinha d'água e até mesmo com camarão.
+    </div>
+  </li>
+
+  <li class="item-comida">
+    <img src="img/guarana-jesus.jpg" alt="Guaraná Jesus" class="img-prato">
+    <div class="info-prato">
+      <strong>Guaraná Jesus:</strong> O famoso refrigerante cor-de-rosa do Maranhão, com um sabor único e tradicional da nossa terra.
+    </div>
+  </li>
+</ul>
+    </section>
+
+    <!-- Seção 3: Cultura -->
+    <section id="cultura">
+      <h2>Cultura Maranhense</h2>
+      <p><strong><h3>A cultura de São Luís é marcada por ritmos envolventes, tradições folclóricas e grande diversidade artística:</h3></strong></p>
+      <br>
+      <article>
+        <h3>Bumba-Meu-Boi</h3>
+       <p>Patrimônio Cultural Imaterial da Humanidade, misturando ritmos como orquestra, zabumba e matracas em uma festa vibrante.</p>
+      <br>
+      </article>
+      <article>
+        <h3>Reggae</h3>
+        <p>São Luís é conhecida como a "Jamaica Brasileira", mantendo viva a cultura das radiolas e das danças agarradinhas.</p>
+      <br>
+      </article>
+      <article>
+        <h3>Tambor de Crioula</h3>
+        <p>Manifestação de dança circular embalada pelo som dos tambores de tronco e pela alegria das coreiras.</p>
+      <br>
+      </article>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form id="form-contato">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        </div>
+        
+        <div class="campo">
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
+        </div>
+        
+        <div class="campo">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem (mínimo 10 caracteres)"></textarea>
+        </div>
+
+        <button type="submit" id="btn-enviar">Enviar Mensagem</button>
+        <p id="mensagem-feedback"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <!-- TROQUE 'Seu Nome' E 'Sua Turma' AQUI -->
+    <p>Desenvolvido por: <strong>Marcos Vinícius Mikael Santos Ferreira</strong> | Turma: <strong>202</strong></p>
+    <p>Fonte das imagens: Wikimedia Commons / Acervo Público do Maranhão</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
